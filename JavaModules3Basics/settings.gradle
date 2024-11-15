@@ -1,0 +1,8 @@
+rootProject.name = 'JavaModules3Basics'
+include 'HelloModule'
+include 'HiModule'
+include 'GreetingModule'
+project(':HelloModule').projectDir = new File("HelloModule")
+project(':HiModule').projectDir = new File("HiModule")
+project(':GreetingModule').projectDir = new File("GreetingModule")
+
